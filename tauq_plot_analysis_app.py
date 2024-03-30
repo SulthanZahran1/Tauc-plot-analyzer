@@ -200,7 +200,7 @@ class TauqPlotAnalysisApp(QMainWindow):
         righterLayout.addLayout(visualizationLayout1)
 
         mainLayout = QHBoxLayout()
-        mainLayout.addLayout(leftLayout, 0.1)
+        mainLayout.addLayout(leftLayout, 1)
         mainLayout.addLayout(rightLayout, 2)
         mainLayout.addLayout(righterLayout, 2)
 
